@@ -106,7 +106,7 @@ def vraagHoeveelheidBolletjes(bolletjes):
 vraagHoeveelheidBolletjes(0)
 ```
 ### F1.5.02.O4
-Hier heb ik alleen de text "Je mag alle smaken kiezen zolang het maar vanille ijs is weggehaald", die op lijn 2 zat
+Hier heb ik alleen de text "Je mag alle smaken kiezen zolang het maar vanille ijs is" weggehaald, die op lijn 2 zat
 ```python
 print("Welkom bij Papi Gelato")
 def snapIkNiet():
