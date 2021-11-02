@@ -470,6 +470,7 @@ vraagHoeveelheidBolletjes()
 ```
 ## F1.5.02.O7
 Dit zijn de functies die ik erbij heb gemaakt
+### 1
 ``` python
 def particulierOfZakelijk():
     vraagParticulierOfZakelijk = input("Bent u 1) particulier of 2) zakelijk? ")
@@ -481,11 +482,13 @@ def particulierOfZakelijk():
         snapIkNiet()
         particulierOfZakelijk() 
 ```
+### 2
 ``` python
 def vraagHoeveelLiter():
     liter = input("Hoeveel liter ijs wilt u? ")
     smaakZakelijk(liter,1)
 ```
+### 3
 ``` python
 def smaakZakelijk(liter,literNummer):
     while literNummer <= int(liter):
@@ -503,6 +506,7 @@ def smaakZakelijk(liter,literNummer):
                 snapIkNiet()
     bonZakelijk(liter)
 ```
+### 4
 ``` python
 def bonZakelijk(liter):
     prijsPerLiter = 9.80
